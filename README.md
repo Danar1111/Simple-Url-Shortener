@@ -38,19 +38,19 @@ API sederhana untuk membuat URL pendek menggunakan Node.js, Express, dan SQLite.
 ---
 
 ## **Endpoin API**
-###POST `/shorten`
+### POST `/shorten`
 Deskripsi: Membuat URL pendek dari URL panjang.
-###Headers:
+### Headers:
 ```
 Content-Type: application/json
 ```
-###Body:
+### Body:
 ```json
 {
   "longUrl": "https://www.example.com"
 }
 ```
-###Response:
+### Response:
 ```json
 {
   "shortUrl": "http://192.168.1.16:5000/abc123"
